@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/denis-peshkov/Cross.Url</projectUrl>
     <repository type="git" url="https://github.com/denis-peshkov/Cross.Url" />
     <readme>docs\README.md</readme>
-    <icon>icon.svg</icon>
+    <icon>icon.png</icon>
     <releaseNotes>
       Initial version.
     </releaseNotes>
@@ -23,6 +23,6 @@
   <files>
     <file src="..\Cross.Url\bin\Release\net7.0\Cross.Url*.* " target="lib\net7.0" />
     <file src="..\README.md" target="docs\" />
-    <file src="..\icon.svg" target="" />
+    <file src="..\icon.png" target="" />
   </files>
 </package>
