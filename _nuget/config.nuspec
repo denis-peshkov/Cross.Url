@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cross.Url</id>
+    <version>7.0.0</version>
+    <authors>denis-peshkov</authors>
+    <owners>denis-peshkov</owners>
+    <copyright>Copyright 2024</copyright>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/denis-peshkov/Cross.Url</projectUrl>
+    <repository type="git" url="https://github.com/denis-peshkov/Cross.Url" />
+    <readme>docs\README.md</readme>
+    <icon>icon.svg</icon>
+    <releaseNotes>
+      Initial version.
+    </releaseNotes>
+    <description>Written on C#.</description>
+    <tags>NetCore</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Cross.Url\bin\Release\net7.0\Cross.Url*.* " target="lib\net7.0" />
+    <file src="..\README.md" target="docs\" />
+    <file src="..\icon.svg" target="" />
+  </files>
+</package>
