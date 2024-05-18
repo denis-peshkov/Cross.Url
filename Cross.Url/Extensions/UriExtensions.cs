@@ -51,13 +51,13 @@ public static class UriExtensions
         return path?.Combine(new[] { path2 });
     }
 
-    public static Uri Combine(this Uri path, Uri[] paths)
+    public static Uri? Combine(this Uri path, Uri[] paths)
         => path.Combine(paths.Select(x => x.LocalPath).ToArray());
 
-    public static Uri Combine(this Uri path, Uri path2)
+    public static Uri? Combine(this Uri path, Uri path2)
         => path.Combine(path2.LocalPath);
 
-    public static Uri Combine(this string path, string path2)
+    public static Uri? Combine(this string path, string path2)
         => new Uri(path).Combine(path2);
 
     public static string RemoveLastSlash(this string path)
